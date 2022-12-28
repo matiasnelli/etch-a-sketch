@@ -1,0 +1,51 @@
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(182, 3, 3);
+}
+
+/* START HEADER */
+.header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 400px;
+    justify-content: space-around;
+    margin-bottom: 20px;
+    font-family:'Lobster';
+}
+
+h1{
+    text-shadow: 2px 2px #6d6e07;
+    font-family:'Lobster'; color:rgb(255, 215, 0)
+}
+
+h6{
+    text-shadow: 2px 2px #555050;
+}
+
+/* END HEADER */
+
+/* START BUTTONS */
+.footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 500px;
+    align-items: center;
+    margin-top: 20px;
+}
+/* END BUTTONS */
+
+/* START BOARD */
+.board{
+    width: 900px;
+    height: 500px;
+    display: grid;
+    border: 3px solid rgb(77, 40, 40);
+    background-color: white;
+}
+/* END BOARD */

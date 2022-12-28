@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Etch-A-Sketch</title>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lobster">
+        <link rel="stylesheet" href="style.css">
+        <script src="main.js"></script>
+    </head>
+    <body>
+
+<!-- START HEADER -->
+        <h1>Etch-A-Sketch</h1>
+        <div class="header">
+            <h6 style="color:white">Select the size</h6>
+            <button id="popup" class="btn btn-danger">Select</button>
+        </div>
+        <p id="message"></p>
+        <p id="draw"></p>
+<!-- END HEADER -->
+
+<!-- START BOARD -->
+        <div class="board"></div>
+<!-- END BOARD -->
+
+<!-- START BUTTONS -->
+        <div class="footer">
+            <button class="btn btn-light btn-lg" onclick="setColor('black')" 
+            style="font-family:'Lobster'; border-radius: 50%;">Black</button>
+            <button class="btn btn-secondary btn-lg" onclick="setColor('random')" 
+            style="font-family:'Lobster'; border-radius: 50%;">Random</button>
+            <button class="btn btn-light btn-lg" onclick="resetBoard()" 
+            style="font-family:'Lobster'; border-radius: 50%;">Reset</button>
+        </div>
+<!-- END BUTTONS -->
+    </body>
+</html>
